@@ -1,0 +1,13 @@
+.services {
+    color: white;
+    padding-left: 100px;
+}
+.services-container {
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.services-content {
+    padding-right: 50px;
+}

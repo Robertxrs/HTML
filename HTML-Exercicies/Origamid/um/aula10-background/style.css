@@ -1,0 +1,15 @@
+.bicicleta{
+    background-color: lightblue;
+    background-image: url(""); /*caminho do img, porem ela repete se o tamanho for maior que a img*/
+    background-repeat: no-repeat;/* ai usa isso para nao repitir*/
+    background-size: auto;/*tamanho do fleines*/
+    background-size: contain;/*ajusta de acordo com o fleines*/
+    background-size: cover;/*pega tudo mas corta dependendo do taamanho*/
+    background-position: center;/*quando for cortar ele corta do meio*/
+    display: flex;
+
+}
+
+h1{
+    margin: 0 auto;
+}

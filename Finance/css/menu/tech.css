@@ -1,0 +1,33 @@
+.tech-container {
+    display: flex;
+    color: white;
+}
+
+.tech-content {
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+.tech-content h1 {
+    font-size: 60px;
+}
+
+.tech-content p {
+    font-size: 26px;
+    padding-right: 140px;
+    padding-bottom: 60px;
+}
+
+.tech-content a {
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.tech-info > i{
+    display: flex;
+    margin-top: 30px;
+    font-size: 32px;
+}

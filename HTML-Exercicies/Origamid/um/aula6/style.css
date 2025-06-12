@@ -1,0 +1,21 @@
+.flex{
+    display: flex; /*serve para deixar um ao lado do outros fleines*/
+    flex-wrap: wrap; /*serve para quebrar a linha caso o espaco seja pouco*/
+    gap: 20px;/*da um gap entre eles*/
+    
+}
+
+h2{
+    background-color: #e7e7e7;
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    margin: 0px;
+    flex-grow: 1;/*tipo fica grande igual o maior que voce tem*/
+    flex-basis: 0;/*vai ser no espaco que sobra, nao vai ficar no centro*/
+    /*flex-shrink: 1;*//*ele se for 0 nao faz quebrar o fleines*/
+    flex: 1;/**/
+
+
+
+
+}

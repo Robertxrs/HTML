@@ -1,0 +1,15 @@
+:root {
+  --tamanho-titulo: 3rem;
+  --cor-primaria: #84e;
+}
+
+h1 {
+  font-size: var(--tamanho-titulo);
+  color: var(--cor-primaria);
+}
+
+p {
+  --cor-primaria: #222;
+  font-size: calc(var(--tamanho-titulo) / 2);
+  color: var(--cor-primaria);
+}

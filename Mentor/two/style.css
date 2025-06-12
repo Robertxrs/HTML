@@ -1,0 +1,57 @@
+body {
+    background: url(../two/images/pattern-background-desktop.svg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    margin-top:10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:  1.3em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.main{
+    display: grid;
+    max-width: 400px;
+    justify-content: center;
+    margin-top: 20px;
+    background: whitesmoke;
+    margin: 20px auto;
+    border-radius: 8px;
+    color: #777792;
+}
+.main h2{
+    color: #1d3259;
+}
+
+.main-fundo{
+    background: url(../two/images/illustration-hero.svg) no-repeat;
+    display: grid;
+    grid-column: 1 / -1;
+    width: auto;
+    height: 240px;
+    border-radius: 8px;
+
+}
+
+.main-plan{
+    display: flex;
+    background: yellow;
+    margin: 20px;
+}
+.main-plan h2{
+    font-size: 20px;
+}
+
+.main-plan h2::before{
+    
+}
+
+
+.main-plan a{
+    margin: 0;
+    padding: 0;
+}
+
+
+

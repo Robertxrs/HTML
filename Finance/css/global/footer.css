@@ -1,0 +1,25 @@
+.footer-bg {
+  background-color: black; 
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footer-redes {
+  display: flex;
+  font-size: 28px;
+  gap: 32px;
+}
+
+.footer a {
+
+  text-decoration: none;
+}
+
+

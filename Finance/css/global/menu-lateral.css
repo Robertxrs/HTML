@@ -1,0 +1,39 @@
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: black;
+    padding: 40px 0 40px 1%;
+    box-shadow: 5px 0 0 white;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.3s ease;
+
+}
+nav.menu-lateral.expandido {
+    width: 300px;
+}
+
+.btn-expandir > i {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu a {
+    display: flex;
+    font-size: 20px;
+    padding: 20px 4%;
+    margin-bottom: 20px;
+    line-height: 40px;  
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 40px;
+}

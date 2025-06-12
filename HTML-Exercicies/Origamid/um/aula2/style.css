@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.container{
+    background-color: rgb(32, 31, 31);
+    color: whitesmoke;
+    width: auto;
+    border-radius: 4px;
+    height: auto;
+    margin: 50px; 
+    padding: 20px;  
+    
+}
+
+span{
+    color: rgb(250,183,17);
+}
+
+button{
+    background-color: rgb(250,183,17);
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+a{
+    display:inline-block;
+    background-color: aqua;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 14px;
+}

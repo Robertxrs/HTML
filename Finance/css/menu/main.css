@@ -1,0 +1,22 @@
+.main-container{   
+    background-color: #1a1616;
+    color: white;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.main-content{
+    padding-top: 150px;
+    margin-left: 240px;
+}
+.main-content .title{
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+
+.main-content .description{
+    font-size: 28px;
+    color: #B1B1B1;
+    margin-bottom: 80px;
+}
+

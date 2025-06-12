@@ -1,0 +1,15 @@
+[required] {
+  border: 2px solid red;
+}
+
+[name='email'] {
+  border: 2px solid blue;
+}
+
+[href^='#'] {
+  border: 2px solid green;
+}
+
+[href$='origamid.com'] {
+  border: 2px solid gold;
+}
